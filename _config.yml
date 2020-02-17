@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Céline Trinquet"
-  avatar           : "/_images/IMG_2321.jpeg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/IMG_2321.jpeg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Artiste"
   location         : "Paris"
   email            :
