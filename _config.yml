@@ -11,16 +11,16 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes@4.18.1"
+# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "fr-FR"
-title                    : "Céline Trinquet"
+locale                   : "en-US"
+title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Céline Trinquet"
-description              : "Céline Trinquet Art Portofolio: céramiques; dessins."
+name                     : "Your Name"
+description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,10 +107,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Céline Trinquet"
-  avatar           : "/images/IMG_2321.jpeg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Artiste"
-  location         : "Paris"
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
   email            :
   links:
     - label: "Email"
@@ -159,7 +159,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  exclude:
+exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
@@ -293,10 +293,3 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _pages
-  - scope:
-        path: ""
-        type: pages
-    values:
-        layout: single
-        author_profile: true
