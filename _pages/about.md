@@ -1,8 +1,8 @@
 ---
 title: "About"
-permalink:/about/
+permalink: /about/
 header:
-    image:"/images/IMG_2321.jpeg"
+    image: "/images/IMG_2321.jpeg"
 ---
 
-Je suis une artiste
+Je suis une artiste magnifique
