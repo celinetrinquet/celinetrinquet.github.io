@@ -5,4 +5,61 @@
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes"; // main partials FOOTER
+$footer-background-color: white;
+footer {
+    text-align:center;
+    font-size: $type-size-6;
+  }
+
+@import "minimal-mistakes";
+.masthead {
+  position: relative;
+  border-bottom: 0px solid $border-color;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+  z-index: 20;
+  font-size: $type-size-6;
+  background-color: rgba(255, 255, 255, 0) !important;;
+    &__inner-wrap {
+        background: rgba(255, 255, 255, 0) !important;
+}
+   } 
+.masthead__menu-item {
+   padding-right: 3em;
+  }
+.page__hero-image {
+    position: relative;
+    full-width:absolute;
+        top: 0;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+        -moz-transform: translate(-50%, 0%);
+        -o-transform: translate(-50%, 0%);
+    }
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baumans|Montserrat|Montserrat+Alternates:300&display=swap');
+.site-title {
+    font-family:"Baumans";
+    font-size: $type-size-5 ;
+    }
+.visible-links {
+    font-family:"Montserrat Alternates";
+    font-size: $type-size-6;
+    font-weight: 300
+}        
+.greedy-nav .visible-links a:before {
+  background-color: blanchedalmond;
+  height: 2px;
+}
+
